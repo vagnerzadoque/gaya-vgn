@@ -1,4 +1,4 @@
-# GaYa Design System - React
+# GaYa VGN
 
 React components for web development inside Natura&Co.
 
@@ -22,13 +22,13 @@ React components for web development inside Natura&Co.
 
 ```shell script
 // with npm
-npm install @naturacosmeticos/natds-react
+npm install @vagnerzadoque/gaya-vgn
 
 // with yarn
-yarn add @naturacosmeticos/natds-react
+yarn add @vagnerzadoque/gaya-vgn
 ```
 
-Installing `@naturacosmeticos/natds-react` will also install the packages `@naturacosmeticos/natds-icons`, `@naturacosmeticos/natds-themes` and `react-jss`
+Installing `@vagnerzadoque/gaya-vgn` will also install the packages `@naturacosmeticos/natds-icons`, `@naturacosmeticos/natds-themes` and `react-jss`
 
 
 ### Usage
@@ -38,7 +38,7 @@ This package only works fine with the use of `<ThemeProvider />`, that is **esse
 
 ```tsx
 import React from 'react'
-import { ThemeProvider, Button, buildTheme } from "@naturacosmeticos/natds-react";
+import { ThemeProvider, Button, buildTheme } from "@vagnerzadoque/gaya-vgn";
 
 /**
  * The `buildTheme` function accepts two parameters:
