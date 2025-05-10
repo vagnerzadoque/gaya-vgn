@@ -1,0 +1,127 @@
+{
+  "name": "@vagnerzadoque/gaya-vgn",
+  "displayName": "Gaya-React",
+  "description": "A collection of components from Natura Design System for React",
+  "version": "2.69.1",
+  "private": false,
+  "keywords": [
+    "design-system",
+    "natura",
+    "react",
+    "web"
+  ],
+  "homepage": "https://github.com/natura-cosmeticos/natds-js/tree/master/packages/react/README.md",
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-js/issues"
+  },
+  "license": "ISC",
+  "author": {
+    "email": "designsystem@natura.net",
+    "name": "Natura&Co.",
+    "url": "https://github.com/natura-cosmeticos"
+  },
+  "files": [
+    "README.md",
+    "dist/"
+  ],
+  "jsdelivr": "dist/umd/index.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "umd:main": "dist/umd/index.js",
+  "unpkg": "dist/umd/index.js",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "dist"
+  },
+  "repository": {
+    "directory": "packages/react",
+    "type": "git",
+    "url": "git+https://github.com/natura-cosmeticos/natds-js.git"
+  },
+  "scripts": {
+    "build": "yarn clean && tsc -p ./tsconfig.build.json && yarn rollup:build",
+    "build:storybook": "yarn build-storybook -o docs/dist",
+    "build:storybook:ci": "yarn build:storybook --quiet",
+    "clean": "rm -rf ./dist",
+    "copy:assets": "mkdir -p ./dist/assets && cp -r ./src/assets/* ./dist/assets",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src --color",
+    "lint:fix": "yarn lint --fix",
+    "rollup:build": "rollup -c --bundleConfigAsCjs",
+    "storybook": "storybook dev -p 6006",
+    "test": "jest --testPathPattern=src --verbose",
+    "test:ci": "jest  --testPathPattern=src --coverage && codecov -t",
+    "test:regression": "loki",
+    "test:watch": "jest --watch --detectOpenHandles",
+    "test:clean": "jest --update-snapshot",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@naturacosmeticos/natds-icons": "1.30.1",
+    "@naturacosmeticos/natds-themes": "0.84.2",
+    "react-jss": "10.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/plugin-transform-runtime": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@babel/runtime": "^7.27.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@storybook/addon-console": "^3.0.0",
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-interactions": "^8.6.12",
+    "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-webpack5": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^14.5.1",
+    "@types/jest": "^29.5.10",
+    "@types/node": "^22.15.17",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "babel-jest": "^29.7.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-image-snapshot": "^6.2.0",
+    "jest-transform-file": "^1.1.1",
+    "plop": "3.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-test-renderer": "^18.2.0",
+    "rollup": "^4.40.2",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "storybook": "^8.6.12",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@types/react": ">= 16.8.6",
+    "@types/react-dom": ">= 16.8.6",
+    "react": ">= 16.8.4",
+    "react-dom": ">= 16.8.4"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    }
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  }
+}

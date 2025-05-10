@@ -1,0 +1,2603 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField component should render correctly when have a label 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #737373;
+}
+.helperText-d0-0-2-13 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: inline-block;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      >
+        some label here
+      </label>
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when is disabled 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #737373;
+}
+.helperText-d0-0-2-13 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when is read only 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #737373;
+}
+.helperText-d0-0-2-13 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when is required 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #737373;
+}
+.helperText-d0-0-2-13 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when it has a helper text 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #737373;
+}
+.helperText-d0-0-2-13 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      >
+        any helper text here
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when it has a success feedback 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #2f833e;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #2f833e;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #2f833e;
+}
+.helperText-d0-0-2-13 > i {
+  margin-right: 4px;
+}
+.icon-0-2-14 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-15 {
+  color: #2f833e;
+  font-size: 16px;
+}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #2f833e;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      >
+        <i
+          aria-hidden="true"
+          class=" icon-0-2-14 icon-d0-0-2-15 natds-icons natds-icons-outlined-action-check Icon-gaya"
+          data-testid="icon-outlined-action-check"
+          role="img"
+        />
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when it has an error feedback 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #de3529;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #de3529;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #de3529;
+}
+.helperText-d0-0-2-13 > i {
+  margin-right: 4px;
+}
+.icon-0-2-14 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-15 {
+  color: #de3529;
+  font-size: 16px;
+}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #de3529;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      >
+        <i
+          aria-hidden="true"
+          class=" icon-0-2-14 icon-d0-0-2-15 natds-icons natds-icons-outlined-action-cancel Icon-gaya"
+          data-testid="icon-outlined-action-cancel"
+          role="img"
+        />
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when it has an icon button action 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+  padding-right: 8px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  padding-right: 8px;
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.sharedRippleEffect-0-2-21 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-22 {
+  height: fit-content;
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-22:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper-0-2-22:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  z-index: -1;
+  position: absolute;
+}
+.ripple-0-2-23 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-24 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-25 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-26 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-27 {
+    cursor: pointer;
+    display: inline-block;
+    align-self: start;
+  }
+  .wrapper-d0-0-2-27:focus:after {
+    background-color: #111111;
+  }
+  .wrapper-d0-0-2-27:hover:after {
+    background-color: #111111;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-28 {
+    background-color: #111111;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-29 {
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  .rippleActive-d3-0-2-30 {
+    animation: keyframes-ripple-0-2-26 300ms;
+  }
+  .base-0-2-19 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-19:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-20 {
+    height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-17 {
+    overflow: hidden;
+    position: relative;
+  }
+  .iconButtonContainer-0-2-17:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    opacity: 0;
+    position: absolute;
+    background-color: #111111;
+  }
+  .iconButtonContainer-0-2-17:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-17:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-17:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-18 {
+    background-color: transparent;
+    border-radius: 16px;
+    width: 32px;
+  }
+  .container-0-2-12 {  }
+  .wrapper-0-2-13 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .image-0-2-14 {
+    max-width: 64px;
+    object-fit: cover;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .container-d0-0-2-15 {
+    margin-right: 8px;
+  }
+  .wrapper-d1-0-2-16 {
+    height: 56px;
+  }
+  .helperText-0-2-33 {
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+    align-items: center;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 0;
+    letter-spacing: 0.38px;
+  }
+  .helperText-0-2-33 > i {  }
+  .helperText-d0-0-2-34 {
+    color: #737373;
+  }
+  .helperText-d0-0-2-34 > i {  }
+  .icon-0-2-31 {
+    font-family: natds-icons;
+    user-select: none;
+    pointer-events: none;
+  }
+  .icon-d0-0-2-32 {
+    color: #363636;
+    font-size: 24px;
+  }
+  .labelContainer-0-2-3 {
+    color: #111111;
+    font-family: "Roboto", Arial;
+  }
+  .labelText-0-2-1 {
+    font-size: 14px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    letter-spacing: 0.11px;
+  }
+  .labelText-d0-0-2-2 {
+    color: #737373;
+    display: none;
+  }",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+        <div
+          class="container-0-2-12 container-d0-0-2-15"
+        >
+          <div
+            class="wrapper-0-2-22 wrapper-d0-0-2-27"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-24 rippleContainer-d2-0-2-29"
+            >
+              <div
+                class="ripple-0-2-23 ripple-d1-0-2-28 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              aria-label="any label"
+              class=" iconButtonContainer-0-2-17 iconButtonContainer-d0-0-2-18 IconButton-gaya base-0-2-19 base-d0-0-2-20"
+              data-testid="ds-input-action-icon"
+              type="button"
+            >
+              <i
+                aria-hidden="true"
+                class=" icon-0-2-31 icon-d0-0-2-32 natds-icons natds-icons-filled-action-love Icon-gaya"
+                data-testid="icon-filled-action-love"
+                role="img"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        class="helperText-0-2-33 helperText-d0-0-2-34"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when it has an image action 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+  padding-right: 8px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  padding-right: 8px;
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.container-0-2-12 {}
+.wrapper-0-2-13 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.image-0-2-14 {
+  max-width: 64px;
+  object-fit: cover;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.container-d0-0-2-15 {}
+.wrapper-d1-0-2-16 {
+  height: 56px;
+}
+.helperText-0-2-17 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-17 > i {}
+.helperText-d0-0-2-18 {
+  color: #737373;
+}
+.helperText-d0-0-2-18 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+        <div
+          class="container-0-2-12 container-d0-0-2-15"
+        >
+          <div
+            class="wrapper-0-2-13 wrapper-d1-0-2-16"
+          >
+            <img
+              alt=""
+              class="image-0-2-14"
+              data-testid="ds-input-action-image"
+              src=""
+            />
+          </div>
+        </div>
+      </div>
+      <p
+        class="helperText-0-2-17 helperText-d0-0-2-18"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when it has multiline type 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #737373;
+}
+.helperText-d0-0-2-13 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <textarea
+          class=" textArea-0-2-8 textArea-d2-0-2-11"
+          data-testid="ds-input-multiline"
+          id="example_to_test"
+          rows="3"
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when it has password type 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #737373;
+}
+.helperText-d0-0-2-13 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="password"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when size is medium 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 48px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #737373;
+}
+.helperText-d0-0-2-13 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly with default props 1`] = `
+[
+  ".wrapper-0-2-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-4:hover {}
+.wrapper-0-2-4:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-5 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-6 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-9:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.input-d1-0-2-10 {
+  height: 56px;
+}
+.input-d1-0-2-10::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-11 {
+  resize: none;
+}
+.textArea-d2-0-2-11::placeholder {
+  color: #737373;
+}
+.helperText-0-2-12 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.38px;
+}
+.helperText-0-2-12 > i {}
+.helperText-d0-0-2-13 {
+  color: #737373;
+}
+.helperText-d0-0-2-13 > i {}
+.labelContainer-0-2-3 {
+  color: #111111;
+  font-family: "Roboto", Arial;
+}
+.labelText-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.labelText-d0-0-2-2 {
+  color: #737373;
+  display: none;
+}",
+  <div>
+    <div
+      class=" TextField-gaya"
+    >
+      <label
+        class="labelText-0-2-1 labelText-d0-0-2-2 labelContainer-0-2-3"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      >
+        <input
+          class=" input-0-2-7 input-d1-0-2-10"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-12 helperText-d0-0-2-13"
+      />
+    </div>
+  </div>,
+]
+`;

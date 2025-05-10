@@ -1,0 +1,38 @@
+import React from 'react'
+import type { Meta, StoryObj } from '@storybook/react'
+import { fn } from '@storybook/test'
+import { {{pascalCase name}}, {{pascalCase name}}Props } from '.'
+
+const componentStatus = `
+- - -
+
+**NOTE FOR UXs**: This component is available in the following variants:
+
+  - ❌ Standard
+
+With the following attribute statuses:
+
+  - **Attributes:**
+    - ❌ \`Types\`
+
+- - -
+`
+
+const meta: Meta<{{pascalCase name}}Props> = {
+  title: 'Components/{{pascalCase name}}',
+  component: {{pascalCase name}},
+  parameters: {
+    componentSubtitle: '',
+    docs: { description: { component: componentStatus } }
+  }
+};
+
+export default meta;
+type Story = StoryObj<{{pascalCase name}}Props>;
+
+export const Playground: Story = {
+  args: {
+    // default args here
+  },
+  render: (args) => <{{pascalCase name}} {...args} />
+};

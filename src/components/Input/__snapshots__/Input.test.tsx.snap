@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should render correctly when type is multiline 1`] = `
+[
+  ".wrapper-0-2-1 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-1:hover {}
+.wrapper-0-2-1:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-2 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-3 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-3:read-only {
+  pointer-events: none;
+}
+.base-0-2-3:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-4 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-4:read-only {
+  pointer-events: none;
+}
+.input-0-2-4:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-4::placeholder {}
+.textArea-0-2-5 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-5:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-5:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-5::placeholder {}
+.wrapper-d0-0-2-6 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-6:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-6:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-6:after {
+  opacity: 0;
+}
+.input-d1-0-2-7 {
+  height: 56px;
+}
+.input-d1-0-2-7::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-8 {
+  resize: none;
+}
+.textArea-d2-0-2-8::placeholder {
+  color: #737373;
+}",
+  <div>
+    <div
+      class="wrapper-0-2-1 wrapper-d0-0-2-6"
+    >
+      <textarea
+        class=" textArea-0-2-5 textArea-d2-0-2-8"
+        data-testid="ds-input-multiline"
+        id="example_to_test"
+        rows="3"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Input component should render correctly with default props 1`] = `
+[
+  ".wrapper-0-2-1 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-1:hover {}
+.wrapper-0-2-1:focus-within {
+  border: 2px solid;
+}
+.wrapper-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: #8c8c8c;
+}
+.leadinContainer-0-2-2 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 8px;
+  justify-content: center;
+}
+.base-0-2-3 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.base-0-2-3:read-only {
+  pointer-events: none;
+}
+.base-0-2-3:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-4 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.input-0-2-4:read-only {
+  pointer-events: none;
+}
+.input-0-2-4:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.input-0-2-4::placeholder {}
+.textArea-0-2-5 {
+  color: #363636;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-5:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-5:disabled {
+  color: #8c8c8c;
+  cursor: default;
+}
+.textArea-0-2-5::placeholder {}
+.wrapper-d0-0-2-6 {
+  border-color: #8c8c8c;
+  cursor: text;
+}
+.wrapper-d0-0-2-6:hover {
+  border-color: #737373;
+}
+.wrapper-d0-0-2-6:focus-within {
+  border-color: #f4ab34;
+}
+.wrapper-d0-0-2-6:after {
+  opacity: 0;
+}
+.input-d1-0-2-7 {
+  height: 56px;
+}
+.input-d1-0-2-7::placeholder {
+  color: #737373;
+}
+.textArea-d2-0-2-8 {
+  resize: none;
+}
+.textArea-d2-0-2-8::placeholder {
+  color: #737373;
+}",
+  <div>
+    <div
+      class="wrapper-0-2-1 wrapper-d0-0-2-6"
+    >
+      <input
+        class=" input-0-2-4 input-d1-0-2-7"
+        data-testid="ds-input"
+        id="example_to_test"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>,
+]
+`;
