@@ -1,6 +1,6 @@
-# GaYa VGN
+# GaYa VGN teste de update usando IA
 
-React components for web development inside Natura&Co.
+React components for web development.
 
 [![npm package](https://img.shields.io/npm/v/@naturacosmeticos/natds-react/latest.svg)](https://www.npmjs.com/package/@naturacosmeticos/natds-react)
 [![Monthly downloads](https://img.shields.io/npm/dm/@naturacosmeticos/natds-react.svg)](https://www.npmjs.com/package/@naturacosmeticos/natds-react)
